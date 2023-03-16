@@ -1,0 +1,28 @@
+[
+    {
+        "name": "html5_video_autoplay", 
+        "type": "choice", 
+        "initial": 0, 
+        "label": "Disable autoplay of <code>&lt;video&gt;</code> tags.", 
+        "help_text": "Per default, <code>&lt;video&gt;</code> tags are allowed to start automatically. Note: When disabling autoplay, you will have to click pause and play again on some video sites.", 
+        "choices": [
+            "Allow autoplay",
+            "Disable autoplay",
+            "Prompt me"
+        ],
+        "addons": [[], [], []],
+        "config": [
+            {
+                "media.autoplay.enabled": true,
+                "media.autoplay.default": 0
+            },
+            {
+                "media.autoplay.enabled": false,
+                "media.autoplay.default": 1
+            },
+            {
+                "media.autoplay.default": 2
+            }
+        ]
+    }
+]

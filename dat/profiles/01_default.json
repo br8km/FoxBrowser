@@ -1,0 +1,94 @@
+[
+    "All Options",
+    {
+        "Annoyances": [
+            "firstrun_tabs.json", 
+            "newtabpage_intro.json", 
+            "pocket.json",
+            "sponsored_top_sites.json",
+            "aboutconfig_warning.json", 
+            "trim_urls.json",
+            "default_browser.json", 
+            "reset_firefox.json", 
+            "heartbeat.json", 
+            "newtabpage.json", 
+			"firefox_view.json",
+            "html5_video_autoplay.json"
+        ], 
+        "Browser Features": [
+            "telemetry.json", 
+            "health_report.json", 
+            "shield_studies.json",
+            "telemetry_experiments.json",
+            "crash_reports.json",
+            "addon_data.json", 
+            "google_safebrowsing.json", 
+            "malware_scan.json", 
+            "dns_over_https.json",
+            "newtab_preload.json",
+            "addons_pane.json",
+            "captive_portal_service.json",
+            "media_drm.json",
+            "media_widevinecdm.json",
+            "sensors.json",
+            "firefox_suggest.json",
+            "pdf_js.json"
+        ], 
+        "Privacy": [
+            "useragent.json", 
+            "cookies.json", 
+            "referer.json", 
+            "dom_storage.json", 
+            "indexed_db.json", 
+            "offline_cache.json",
+            "sessionstore_privacy.json",
+            "prefetch_next.json", 
+            "speculative_loading.json", 
+            "newtab_page_thumbnails_container.json",
+            "webgl.json", 
+            "webgl_renderer.json", 
+            "webrtc.json", 
+            "clipboard.json", 
+            "search_suggest.json", 
+            "search_keyword.json", 
+            "fixup_urls.json"
+        ], 
+        "Website Tracking": [
+            "dnt.json", 
+            "resist-fingerprinting.json", 
+            "trackingprotection.json", 
+            "firstparty-isolation.json", 
+            "ping.json", 
+            "tls_session_identifiers.json",
+            "beacons.json", 
+            "battery.json", 
+            "media_devices.json", 
+            "autofillforms.json", 
+            "webaudio.json",
+            "video_stats.json",
+            "utm_protection.json"
+        ], 
+        "Security": [
+            "autoupdate.json", 
+            "extension_blocklist.json",
+            "https_only.json",
+            "punycode.json"
+        ], 
+        "Addons": [
+            "canvasblocker.json", 
+            "https_everywhere.json", 
+            "privacybadger.json", 
+            "ublock.json", 
+            "cookieautodelete.json",
+            "umatrix.json",
+            "decentraleyes.json",
+            "clearurls.json",
+            "temporarycontainers.json",
+            "firefoxmulti-accountcontainers.json",
+            "greasemonkey_stats.json"
+        ],
+        "Enterprise Policies": [
+            "enterprise_policies.json"
+        ]
+    }
+]

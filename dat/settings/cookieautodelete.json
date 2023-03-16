@@ -1,0 +1,21 @@
+[
+    {
+        "name": "cookieautodelete",
+        "type": "boolean", 
+        "initial": false, 
+        "label": "Install the <a href=\"https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/\">Cookie Autodelete</a> extension.", 
+        "help_text": "The extension allows you to automatically delete the cookies of a site when you close the tab.", 
+        "addons": [
+            "CookieAutoDelete@kennydo.com.xpi"
+        ], 
+        "config": {},
+        "enterprise_policy": {
+			"ExtensionSettings": {
+				"CookieAutoDelete@kennydo.com": {
+					"install_url": "https://addons.mozilla.org/firefox/downloads/latest/cookie-autodelete/latest.xpi",
+					"installation_mode": "normal_installed"
+				}
+			}
+		}
+    }
+]

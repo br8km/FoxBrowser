@@ -1,0 +1,13 @@
+[
+    {
+        "name": "webrtc", 
+        "type": "boolean", 
+        "initial": true, 
+        "label": "Disable WebRTC", 
+        "help_text": "Disables the WebRTC function, which gives away your local ips. Some addons like uBlock origin provide settings to prevent WebRTC from exposing local ips without disabling WebRTC.",
+        "addons": [], 
+        "config": {
+            "media.peerconnection.enabled": false
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sensors",
+    "type": "boolean",
+    "initial": true,
+    "label": "Disable access to device sensor data",
+    "help_text": "Disallow websites to access sensor data (ambient light, motion, device orientation and proximity data).",
+    "addons": [],
+    "config": {
+      "device.sensors.ambientLight.enabled": false,
+      "device.sensors.enabled": false,
+      "device.sensors.motion.enabled": false,
+      "device.sensors.orientation.enabled": false,
+      "device.sensors.proximity.enabled": false
+    }
+  }
+]

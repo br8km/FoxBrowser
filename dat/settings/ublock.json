@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ublock", 
+        "type": "boolean", 
+        "initial": true, 
+        "label": "Install <a href=\"https://addons.mozilla.org/firefox/addon/ublock-origin/\">uBlock Origin</a> extension.", 
+        "help_text": "Efficient blocker, which does not only block ads, but also supports Anti-Tracking and Anti-Malware Blocklists", 
+        "addons": [
+            "uBlock0@raymondhill.net.xpi"
+        ], 
+        "config": {},
+        "enterprise_policy": {
+			"ExtensionSettings": {
+				"uBlock0@raymondhill.net": {
+					"install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+					"installation_mode": "normal_installed"
+				}
+			}
+		}
+    }
+]

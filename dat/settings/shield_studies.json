@@ -1,0 +1,20 @@
+[
+    {
+        "name": "shield_studies", 
+        "type": "boolean", 
+        "initial": true, 
+        "label": "Disable shield studies", 
+        "help_text": "<a href=\"https://wiki.mozilla.org/Firefox/Shield\">Mozilla shield studies</a> is a feature which allows mozilla to remotely install experimental addons.",
+        "addons": [], 
+        "config": {
+            "app.normandy.enabled": false,
+            "app.normandy.api_url": "",
+            "app.shield.optoutstudies.enabled": false,
+            "extensions.shield-recipe-client.enabled": false,
+            "extensions.shield-recipe-client.api_url": ""
+        },
+        "enterprise_policy": {
+            "DisableFirefoxStudies": true
+		}
+    }
+]
