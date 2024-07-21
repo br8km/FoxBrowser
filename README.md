@@ -1,9 +1,9 @@
-# GoBrowser
+# FoxBrowser
 
 
 ---
 ### Brief Intro
-- Name: GoBrowser
+- Name: FoxBrowser
 - Description: Anti-Detect Browser Profile Manager
 - Author: Anonymous
 - Date: 2023-03-16
